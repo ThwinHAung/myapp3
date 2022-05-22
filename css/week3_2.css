@@ -1,0 +1,62 @@
+/* img {
+    float: right;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col1 {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+.col2 {
+    width: 70%;
+    margin: 10px;
+}
+
+.col3,
+.col4 {
+    clear: left;
+    margin: 5px;
+}
+
+.col {
+    width: 24%;
+    height: 200px;
+    border: 2px solid red;
+    float: left;
+    margin: 5px;
+}
+
+.first {
+    background-image: url(../image/bghoney.png);
+}
+
+.column {
+    width: 49%;
+    height: 250px;
+    float: left;
+    border: 2px solid blue;
+    margin: 5px;
+}
+
+.banner {
+    clear: both;
+}
+
+.background {
+    clear: both;
+}
+
+.bg {
+    float: left;
+    width: 31%;
+    height: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,37 @@
+.icon_title {
+    background: url(../image/icon_title2.png) no-repeat top left;
+    padding-top: 34px;
+    padding-bottom: 0px;
+    padding-left: 83px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+div {
+    line-height: 25px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.bg {
+    padding: 12px 80px 3px 0px;
+    min-height: 30px;
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    background: linear-gradient(to right, rgba(70, 37, 86, 1) 0%, rgba(123, 84, 151, 1) 40%, rgba(255, 255, 255, 1) 100%);
+}
+
+
+/* .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.left {
+    background-color: #333;
+} */

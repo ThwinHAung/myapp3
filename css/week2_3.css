@@ -1,0 +1,15 @@
+div+div {
+    background-color: aqua;
+}
+
+input[type=text] {
+    background-color: brown;
+}
+
+input[type=submit] {
+    background-color: burlywood;
+}
+
+button {
+    background-color: chartreuse;
+}

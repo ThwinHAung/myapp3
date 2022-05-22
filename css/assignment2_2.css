@@ -1,0 +1,34 @@
+#p1 {
+    font-size: 20px;
+    color: blue;
+}
+
+#p2 {
+    background-color: black;
+    color: red;
+}
+
+#p3 {
+    background-color: chartreuse;
+    color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: coral;
+}
+
+#p4 {
+    color: coral;
+    font-weight: bold;
+}
+
+ul>li {
+    color: blue;
+    list-style: square;
+}
