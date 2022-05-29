@@ -1,0 +1,46 @@
+body {
+    background-color: red;
+}
+
+.box1 {
+    background-color: green;
+    height: 300px;
+    width: 100%;
+}
+
+.box2 {
+    background-color: yellow;
+    height: 300px;
+    width: 100%;
+}
+
+img {
+    width: 50%;
+    height: 200px;
+}
+
+
+/* start from small device to large */
+
+@media only screen and (min-width:600px) {
+    body {
+        background-color: blue;
+    }
+    .box1 {
+        float: left;
+        width: 50%;
+    }
+    .box2 {
+        float: left;
+        width: 50%;
+    }
+    img {
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+    p {
+        width: 45%;
+        float: left;
+    }
+}

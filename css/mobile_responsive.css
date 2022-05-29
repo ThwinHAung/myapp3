@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .background {
+    position: absolute;
+    position: relative;
+    top: 50px;
+    height: 400px;
+    width: 100%;
+    background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5,
+.banner6,
+.banner7 {
+    width: 14.285714%;
+    height: 200px;
+} */
+
+@media only screen and (min-width:455px) {
+    .background {
+        position: absolute;
+        position: relative;
+        top: 50px;
+        height: 1000px;
+        width: 100%;
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5,
+    .banner6,
+    .banner7 {
+        width: 50%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:600px) {
+    .background {
+        position: absolute;
+        position: relative;
+        top: 50px;
+        height: 800px;
+        width: 100%;
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5,
+    .banner6,
+    .banner7 {
+        width: 33.333%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:753px) {
+    .background {
+        position: absolute;
+        position: relative;
+        top: 50px;
+        height: 600px;
+        width: 100%;
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5,
+    .banner6,
+    .banner7 {
+        width: 25%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:767px) {
+    .background {
+        position: absolute;
+        position: relative;
+        top: 50px;
+        height: 600px;
+        width: 100%;
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5,
+    .banner6,
+    .banner7 {
+        width: 20%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:905px) {
+    .background {
+        position: absolute;
+        position: relative;
+        top: 50px;
+        height: 600px;
+        width: 100%;
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5,
+    .banner6,
+    .banner7 {
+        width: 16.6666667%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:1055px) {
+    .background {
+        position: absolute;
+        position: relative;
+        top: 50px;
+        height: 400px;
+        width: 100%;
+        background-image: linear-gradient(to left top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    }
+    img {
+        width: 100%;
+        height: 100%;
+    }
+    .container {
+        position: absolute;
+        top: 100px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .banner1,
+    .banner2,
+    .banner3,
+    .banner4,
+    .banner5,
+    .banner6,
+    .banner7 {
+        width: 14.285714%;
+        height: 200px;
+    }
+}
