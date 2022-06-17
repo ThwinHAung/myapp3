@@ -1,0 +1,10 @@
+    .accordion-button::after {
+        background-image: url(../fonts/fontawesome/svgs/brands/amazon-pay.svg) !important;
+        background-repeat: no-repeat;
+        background-size: 20px;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+    }

@@ -1,0 +1,21 @@
+.btn {
+    background-color: orange;
+}
+
+.third {
+    height: 278px !important;
+}
+
+.container-fluid {
+    background-image: url(../image/sand-texture-in-the-beach-917396446-a71407b27e164c53a7bf0a89510074d4.jpg);
+}
+
+.color {
+    background-color: grey;
+}
+
+.a1 {
+    text-decoration: none;
+    float: right;
+    margin-right: 15px;
+}

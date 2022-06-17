@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/week7_1.css">
+    <link href="fonts/fontawesome/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="modal modal-lg" data-bs-backdrop="static" id="registeration_form">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registeration Form</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label">Firstname</label>
+                                <input name="Firstname" type="text" id="" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Lastname</label>
+                                <input name="Lastname" type="text" id="" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input name="emai" type="text" id="" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Postcode</label>
+                                <input name="Postcode" type="text" id="" class="form-control">
+                            </div>
+                            <div class="md-3">
+                                <label class="form-label">Select state</label>
+                                <select name="" id="" class="form-select">
+                                    <option>US</option>
+                                    <option>UK</option>
+                                    <option>China</option>
+                                    <option>India</option>
+                                    <option>Japan</option>
+                                </select>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" id="" name="Customer"><label for="" class="form-check-label">New Customer</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-check mb-3">
+                                        <input class="form-check-input" type="radio" id="" name="Customer"><label for="" class="form-check-label">Existing</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input type="checkbox" class="form-check-input">Are you a new customer?
+                            </div>
+
+                            <div class="mb-3">
+                                <label class="form-label">Descriptions</label>
+                                <textarea class="form-control" id="" rows="4"></textarea>
+                            </div>
+                            <div class="mb-3 input-group">
+                                <input type="text" id="" class="form-control">
+                                <button class="btn btn-primary">Check Domain</button>
+                            </div>
+                            <div class="mb-3 input-group">
+                                <input type="text" name="" id="" class="form-control">
+                                <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">Check Domain</button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">.edu</a></li>
+                                    <li><a class="dropdown-item" href="#">.io</a></li>
+                                    <li><a class="dropdown-item" href="#">.biz</a></li>
+                                    <li><a class="dropdown-item" href="#">.store</a></li>
+                                </ul>
+                            </div>
+                            <div class="input-group mb-3">
+                                <label class="input-group-text">Upload</label>
+                                <input type="file" class="form-control">
+                            </div>
+                            <div class="mb-3 form-floating">
+                                <input type="password" class="form-control" placeholder="password">
+                                <label>Password</label>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#registeration_form">
+            Click Here
+          </button>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="fonts/fontawesome/js/all.min.js"></script>
+</body>
+
+</html>

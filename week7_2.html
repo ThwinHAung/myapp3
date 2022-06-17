@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/week7_2.css">
+    <link href="fonts/fontawesome/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <div class="accordion" id="parent">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#myitem1">
+                                Item1
+                            </button>
+                        </h2>
+                        <div id="myitem1" class="collapse accordion-collapse show bg-success" data-bs-parent="#parent">
+                            <div class="accordion-body">
+                                <h2>Item Heading</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat laborum nesciunt id eligendi necessitatibus aperiam dolore exercitationem numquam, quae ducimus sunt veritatis nobis dolorum hic quasi molestias ipsum iste
+                                    doloremque.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#myitem2" data-bs-toggle="collapse">
+                                Item2
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="myitem2" data-bs-parent="#parent">
+                            <div class="accordion-body bg-primary">
+                                <h2>Item Heading</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat laborum nesciunt id eligendi necessitatibus aperiam dolore exercitationem numquam, quae ducimus sunt veritatis nobis dolorum hic quasi molestias ipsum iste
+                                    doloremque.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" data-bs-target="#myitem3" data-bs-toggle="collapse">
+                                Item3
+                            </button>
+                        </h2>
+                        <div class="collapse accordion-collapse" id="myitem3" data-bs-parent="#parent">
+                            <div class="accordion-body bg-danger">
+                                <h2>Item Heading</h2>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat laborum nesciunt id eligendi necessitatibus aperiam dolore exercitationem numquam, quae ducimus sunt veritatis nobis dolorum hic quasi molestias ipsum iste
+                                    doloremque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas corporis sed nesciunt dolores adipisci, quas quis atque fugiat aut, quaerat culpa, reprehenderit cumque necessitatibus nostrum voluptatibus
+                                    explicabo ab laborum modi.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <ul class="nav flex-column nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-bs-target="#research" data-bs-toggle="tab">Researh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-target="#members" data-bs-toggle="tab">Faculty Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-target="#new" data-bs-toggle="tab">News</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-10">
+                <div class="tab-content">
+                    <div class="tab-pane show active" id="research">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="image/banner1.jpg">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/banner2.jpg">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/banner3.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="members">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="image/banner4.jpg">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/banner5.jpg">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/banner6.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="new">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="image/banner7.jpg">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/bghoney.png">
+                            </div>
+                            <div class="col-md-4">
+                                <img src="image/banner11.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="fonts/fontawesome/js/all.min.js "></script>
+</body>
+
+</html>
