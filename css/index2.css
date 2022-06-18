@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+img {
+    width: 100%;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+#seemore-btn {
+    background-color: #262626;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a {
+    color: white !important;
+}
+
+.fa-camera {
+    color: white !important;
+    padding-left: 50px;
+    padding-right: 15px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 20px !important;
+}
+
+.nav-item {
+    padding-left: 15px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background-color: #262626;
+}
+
+.form-control {
+    background-color: #262626 !important;
+    color: #ffff !important;
+}
+
+.carousel-item {
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 0% 100%);
+    position: relative;
+}
+
+#main-nav {
+    z-index: 10 !important;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+
+#h-4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    letter-spacing: 4px;
+    margin-bottom: 5px;
+}
+
+#h-1 {
+    font-family: 'Tapestry', cursive;
+    font-size: 92px;
+}
+
+#h-1::after {
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: 100px;
+    height: 2px;
+    top: 120px;
+    left: -30px;
+    transform: translateY(-50%)
+}
+
+#h-1::before {
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: 100px;
+    height: 2px;
+    top: 120px;
+    right: -30px;
+    transform: translateY(-50%)
+}
+
+.carousel-caption {
+    position: absolute;
+    margin-bottom: 350px;
+}
+
+img {
+    width: 100%;
+    height: 800px;
+}
+
+#icon {
+    padding: 5px;
+    color: #262626 !important;
+}
+
+#design-h {
+    padding-top: 5px;
+}
+
+.box {
+    -webkit-box-shadow: 0 0 20px #e4e4e4;
+    box-shadow: 0 0 20px #e4e4e4;
+    border-radius: 5px;
+    width: 47%!important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.box1 {
+    -webkit-box-shadow: 0 0 20px #e4e4e4;
+    box-shadow: 0 0 20px #e4e4e4;
+    border-radius: 5px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    width: 32% !important;
+}
+
+#tab-a {
+    text-decoration: none;
+    color: black !important;
+}
+
+#p1 {
+    clear: both;
+    padding-left: 25px;
+}
+
+#seemore-btn:hover {
+    background-color: #2B65EC;
+}
+
+#feedbck {
+    text-align: justify !important;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 10px;
+    float: left;
+}
+
+#profile-name {
+    float: left;
+    padding-left: 10px;
+}
+
+#profile1 {
+    background-image: url(../image/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile2 {
+    background-image: url(../image/images\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile3 {
+    background-image: url(../image/Simeon\ Kolawole\ Adesina.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile4 {
+    background-image: url(../image/105265_616653.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile5 {
+    background-image: url(../image/1594912196352.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile6 {
+    background-image: url(../image/yakubu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile7 {
+    background-image: url(../image/drlederle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile8 {
+    background-image: url(../image/105265_616653.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#profile9 {
+    background-image: url(../image/images\ \(2\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ph,
+#em,
+#lc {
+    color: white !important;
+    float: left;
+    padding-right: 5px;
+}
+
+#f1 {
+    color: white;
+}
+
+#fa-tab {
+    text-decoration: none;
+    color: white;
+}
+
+#f-icon {
+    color: white !important;
+    margin-right: 8px;
+}
+
+#ic-gp {
+    position: absolute;
+    top: 35px;
+}
+
+#ful-div {
+    position: absolute;
+    top: 35px;
+    left: -10px;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+    line-height: 0.7cm;
+}
+
+#a1 {
+    text-decoration: none;
+    color: white !important;
+}
+
+.search-container button {
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #A0D334;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.topnav input[type=text],
+.topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+}
+
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+
+.parallelogram {
+    width: 100%;
+    height: 450px;
+    clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
+    position: relative;
+}
+
+#playbtn {
+    position: absolute;
+    background-color: #262626;
+    color: #051922;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 92px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding-left: 5px;
+    display: block;
+    z-index: 2;
+    top: 50%;
+    margin-top: -45px;
+    -webkit-box-shadow: 0 0 20px #adadad;
+    box-shadow: 0 0 20px #adadad;
+    left: 50%;
+    margin-left: -45px;
+}
